@@ -1,0 +1,24 @@
+{
+  "name": "christopherdarling/silverstripe-template-inline-file",
+  "description": "Loads a theme asset and outputs the content inline",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "asset", "theme", "inline", "svg", "critical"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christopher Darling",
+      "homepage": "http://www.christopherdarling.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": ">=3.0.1",
+    "composer/installers": "*"
+  },
+  "support": {
+    "issues": "https://github.com/christopherdarling/silverstripe-template-inline-file/issues"
+  },
+  "extra": {
+    "installer-name": "cd_silverstripe-template-inline-file"
+  }
+}
