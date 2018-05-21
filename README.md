@@ -1,4 +1,4 @@
-# Theme Manifest assets
+# Template Inline File
 
 Returns a files contents to be rendered inline in a template.
 
