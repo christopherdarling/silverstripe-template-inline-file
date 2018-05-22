@@ -1,7 +1,7 @@
 {
   "name": "christopherdarling/silverstripe-template-inline-file",
   "description": "Loads a theme asset and outputs the content inline",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "keywords": ["silverstripe", "asset", "theme", "inline", "svg", "critical"],
   "license": "MIT",
   "authors": [
@@ -12,8 +12,7 @@
     }
   ],
   "require": {
-    "silverstripe/framework": ">=3.0.1",
-    "composer/installers": "*"
+    "silverstripe/framework": "~4.0"
   },
   "support": {
     "issues": "https://github.com/christopherdarling/silverstripe-template-inline-file/issues"
