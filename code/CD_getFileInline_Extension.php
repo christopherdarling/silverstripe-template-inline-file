@@ -18,11 +18,13 @@ class TemplateInlineFile implements TemplateGlobalProvider
         ];
     }
 
-    public static function getPath($path, $pathB=null)
+	/**
+	 * @param mixed ...$paths
+	 * @return false|string|void
+	 */
+    public static function getPath(...$paths)
     {
-        if (!is_null($pathB)) {
-            $path = $path . $pathB;
-        }
+        $path = implode('', $paths);
 
         $absPath = Director::getAbsFile($path);
 
