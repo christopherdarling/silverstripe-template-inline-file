@@ -2,23 +2,44 @@
   "name": "christopherdarling/silverstripe-template-inline-file",
   "description": "Loads a theme asset and outputs the content inline",
   "type": "silverstripe-vendormodule",
-  "keywords": ["silverstripe", "asset", "theme", "inline", "svg", "critical"],
+  "keywords": [
+    "silverstripe",
+    "asset",
+    "theme",
+    "inline",
+    "svg",
+    "critical"
+  ],
   "license": "MIT",
   "authors": [
     {
       "name": "Christopher Darling",
-      "homepage": "http://www.christopherdarling.co.uk",
-      "role": "Developer"
+      "homepage": "http://www.christopherdarling.co.uk"
     }
   ],
   "require": {
-    "php": ">=5.6.0",
-    "silverstripe/framework": "~4.0"
+    "php": ">=8.0.0",
+    "silverstripe/framework": "^4.0 || ^5.0"
   },
   "support": {
     "issues": "https://github.com/christopherdarling/silverstripe-template-inline-file/issues"
   },
   "extra": {
     "installer-name": "cd_silverstripe-template-inline-file"
+  }
+  "autoload": {
+    "psr-4": {
+      "ChristopherDarling\\TemplateInlineFile": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "silverstripe/vendor-plugin": true,
+      "silverstripe/recipe-plugin": true,
+      "phpstan/extension-installer": true
+    }
   }
 }
