@@ -26,7 +26,7 @@
   },
   "extra": {
     "installer-name": "cd_silverstripe-template-inline-file"
-  }
+  },
   "autoload": {
     "psr-4": {
       "ChristopherDarling\\TemplateInlineFile": "src/"
